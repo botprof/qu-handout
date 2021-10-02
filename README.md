@@ -2,6 +2,10 @@
 
 This is a LaTeX template for making simple handouts for courses or other technical purposes.
 
+## Sample Output
+
+![Sample output](qu-handout-sample-page.png)
+
 ## Contact the Author
 
 Send any suggested edits or comments to the author by using the coordinates below.
