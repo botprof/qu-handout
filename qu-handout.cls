@@ -65,7 +65,7 @@
     \fancyfoot[C]{}%
     \fancyhead[R]{\bf\small \term \\ \bf\small Page~\thepage~of~\pageref{LastPage}}%
     \fancyhead[L]{\bf\small \coursetitle \\ \institution} %
-    \fancyfoot[L]{\bf\small Prepared by \@author\ on \today}
+    \fancyfoot[L]{\bf\footnotesize Prepared by \@author\ on \today}
     \renewcommand{\headrulewidth}{0pt}
     \renewcommand{\footrulewidth}{0pt}}
 
