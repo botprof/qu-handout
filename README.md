@@ -2,9 +2,9 @@
 
 This is a LaTeX template for making simple handouts for courses or other technical purposes.
 
-## Sample Output
+## Example Output
 
-![Sample output](qu-handout-sample-page.png)
+See the [example PDF output](https://github.com/botprof/qu-handout/blob/main/qu-handout-example.pdf) included in this repository.
 
 ## Contact the Author
 
