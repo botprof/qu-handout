@@ -42,6 +42,9 @@
 % Load the graphics package for images
 \RequirePackage{graphicx}
 
+% For getting the current time
+\RequirePackage[useregional]{datetime2}
+
 % Queen's official colors
 \RequirePackage{color}
 \definecolor{qred}{RGB}{157,25,57} % Primary color
@@ -54,8 +57,8 @@
 \fancypagestyle{plain}{%
     \fancyhf{}%
     \fancyfoot[C]{}%
-    \fancyhead[R]{\bf\small Page~\thepage~of~\pageref{LastPage}}%
-    \fancyhead[L]{\bf\small \@title}%
+    \fancyhead[R]{\bf\footnotesize Page~\thepage~of~\pageref{LastPage}}%
+    \fancyhead[L]{\bf\footnotesize \@title}%
     \renewcommand{\headrulewidth}{0pt}
     \renewcommand{\footrulewidth}{0pt}}
     
@@ -63,9 +66,9 @@
 \fancypagestyle{title}{%
     \fancyhf{}%
     \fancyfoot[C]{}%
-    \fancyhead[R]{\bf\small \term \\ \bf\small Page~\thepage~of~\pageref{LastPage}}%
-    \fancyhead[L]{\bf\small \coursetitle \\ \institution} %
-    \fancyfoot[L]{\bf\footnotesize Prepared by \@author\ on \today}
+    \fancyhead[R]{\bf\footnotesize \term \\ \bf\small Page~\thepage~of~\pageref{LastPage}}%
+    \fancyhead[L]{\bf\footnotesize \coursetitle \\ \institution} %
+    \fancyfoot[L]{\bf\footnotesize Coptyright \textcopyright\ \the\year\ by \@author \\ Version timestamp \DTMnow}
     \renewcommand{\headrulewidth}{0pt}
     \renewcommand{\footrulewidth}{0pt}}
 
