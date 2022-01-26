@@ -68,7 +68,7 @@
     \fancyfoot[C]{}%
     \fancyhead[R]{\bf\footnotesize \term \\ \bf\small Page~\thepage~of~\pageref{LastPage}}%
     \fancyhead[L]{\bf\footnotesize \coursetitle \\ \institution} %
-    \fancyfoot[L]{\bf\footnotesize Coptyright \textcopyright\ \the\year\ by \@author \\ Version timestamp \DTMnow}
+    \fancyfoot[L]{\bf\footnotesize Copyright \textcopyright\ \the\year\ by \@author \\ Version timestamp \DTMnow}
     \renewcommand{\headrulewidth}{0pt}
     \renewcommand{\footrulewidth}{0pt}}
 
