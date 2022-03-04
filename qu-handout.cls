@@ -53,6 +53,31 @@
 \definecolor{qcgray}{RGB}{104,102,99} % Goes with qred
 \definecolor{qwgray}{RGB}{140,127,112} % Goes with qblue
 
+% For the framebox
+\RequirePackage{framed}
+% Gray
+\definecolor{shadecolor}{gray}{0.95}
+% Blue
+\newenvironment{bshaded}
+    {\definecolor{shadecolor}{RGB}{229,233,238}\begin{shaded}}
+    {\end{shaded}}
+% Red
+\newenvironment{rshaded}
+    {\definecolor{shadecolor}{RGB}{246,232,234}\begin{shaded}}
+    {\end{shaded}}
+% Yellow
+\newenvironment{yshaded}
+    {\definecolor{shadecolor}{RGB}{253,246,233}\begin{shaded}}
+    {\end{shaded}}
+% Orange
+\newenvironment{oshaded}
+    {\definecolor{shadecolor}{RGB}{245,225,214}\begin{shaded}}
+    {\end{shaded}}
+% Purple
+\newenvironment{pshaded}
+    {\definecolor{shadecolor}{RGB}{221,213,219}\begin{shaded}}
+    {\end{shaded}}
+
 % Define the basic page style for multipage documents
 \fancypagestyle{plain}{%
     \fancyhf{}%

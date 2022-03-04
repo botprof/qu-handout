@@ -19,17 +19,15 @@
 % For underlining stuff in a nice way
 \usepackage[normalem]{ulem}
 
-% For the framebox
-\usepackage{framed,color}
-\definecolor{shadecolor}{rgb}{0.95,0.95,0.95}
-
-% For code (usually Python)
+% For code (usually Python or C/C++)
 \usepackage[]{minted}
 \setminted[python]{linenos=true}
+\setminted[c]{linenos=true}
 \renewcommand\theFancyVerbLine{\sffamily\footnotesize\arabic{FancyVerbLine}}
 \BeforeBeginEnvironment{minted}{\begin{snugshade}}
 \AfterEndEnvironment{minted}{\end{snugshade}}
 \newcommand*{\mintpy}[1]{\mintinline[bgcolor=shadecolor]{python}{#1}}
+\newcommand*{\mintc}[1]{\mintinline[bgcolor=shadecolor]{c}{#1}}
 
 % For better looking tables
 \usepackage{booktabs}
@@ -86,11 +84,11 @@
 \thispagestyle{title}
 
 % Start the document
-\begin{shaded}
+\begin{bshaded}
   \begin{center}
     \Large\bf\thetitle
   \end{center}
-\end{shaded}
+\end{bshaded}
 
 % ---------------------------------------------------------------
 
