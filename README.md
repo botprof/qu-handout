@@ -1,4 +1,4 @@
-# Course Handout LaTeX Class and Template
+# qu-handout: Course Handout LaTeX Class and Template
 
 This is a LaTeX template for making simple handouts for courses or other technical purposes.
 
