@@ -47,11 +47,10 @@
 
 % Queen's official colors
 \RequirePackage{color}
-\definecolor{qred}{RGB}{157,25,57} % Primary color
-\definecolor{qblue}{RGB}{17,51,93} % Primary color
-\definecolor{qgold}{RGB}{238,189,49} % Secondary color
-\definecolor{qcgray}{RGB}{104,102,99} % Goes with qred
-\definecolor{qwgray}{RGB}{140,127,112} % Goes with qblue
+\definecolor{qblue}{RGB}{0,36,82}
+\definecolor{qred}{RGB}{185,14,49}
+\definecolor{qgold}{RGB}{250,189,15}
+\definecolor{qgrey}{RGB}{230,231,232}
 
 % For the framebox
 \RequirePackage{framed}
