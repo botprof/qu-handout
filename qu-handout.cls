@@ -15,12 +15,12 @@
 
 % Set up fonts as you like them
 \RequirePackage{cmbright}
-\RequirePackage[T1]{fontenc}
 
-% Alternatiely, set up document fonts (Palatino is the official Queen's font)
-% See also http://www.queensu.ca/identity for Queen's visual standards
-% \RequirePackage{mathpazo}
-% \RequirePackage[scaled=0.85]{beramono}
+% Queen's official is Open Sans
+% \RequirePackage[default,scale=0.95]{opensans}
+
+% Use T1 encoding
+\RequirePackage[T1]{fontenc}
 
 % Set up some nice text spacing, for report readability
 \newcommand{\spread}{1.05}
