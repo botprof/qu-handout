@@ -1,5 +1,5 @@
 % QU-HANDOUT: Handout/note class for the Queen's courses
-% Copyright (c) 2013-2021 Joshua A. Marshall
+% Copyright (c) 2013-2022 Joshua A. Marshall
 % Originally created by Joshua A. Marshall on 11 July 2013
 
 \LoadClass[12pt,letterpaper,fleqn,oneside]{article}
@@ -12,15 +12,13 @@
 
 % Set up page numbers and headers
 \RequirePackage{fancyhdr,lastpage}
+\setlength{\headheight}{24.75447pt}
 
 % Set up fonts as you like them
 \RequirePackage{cmbright}
 
 % Queen's official is Open Sans
 % \RequirePackage[default,scale=0.95]{opensans}
-
-% Use T1 encoding
-\RequirePackage[T1]{fontenc}
 
 % Set up some nice text spacing, for report readability
 \newcommand{\spread}{1.05}
@@ -33,7 +31,6 @@
 
 % Set up the section fonts
 \RequirePackage{sectsty}
-% \allsectionsfont{}
 
 % Set the caption labeling font
 \RequirePackage{caption}
@@ -46,11 +43,14 @@
 \RequirePackage[useregional]{datetime2}
 
 % Queen's official colors
-\RequirePackage{color}
+\RequirePackage[pdftex]{xcolor}
 \definecolor{qblue}{RGB}{0,36,82}
 \definecolor{qred}{RGB}{185,14,49}
 \definecolor{qgold}{RGB}{250,189,15}
 \definecolor{qgrey}{RGB}{230,231,232}
+\definecolor{qgreen}{RGB}{119,146,33}
+\definecolor{qbrown}{RGB}{135,97,64}
+\definecolor{qpurple}{RGB}{97,79,135}
 
 % For the framebox
 \RequirePackage{framed}
@@ -58,23 +58,23 @@
 \definecolor{shadecolor}{gray}{0.95}
 % Blue
 \newenvironment{bshaded}
-    {\definecolor{shadecolor}{RGB}{229,233,238}\begin{shaded}}
+    {\colorlet{shadecolor}{qblue!10}\begin{shaded}}
     {\end{shaded}}
 % Red
 \newenvironment{rshaded}
-    {\definecolor{shadecolor}{RGB}{246,232,234}\begin{shaded}}
+    {\colorlet{shadecolor}{qred!10}\begin{shaded}}
     {\end{shaded}}
 % Yellow
 \newenvironment{yshaded}
-    {\definecolor{shadecolor}{RGB}{253,246,233}\begin{shaded}}
+    {\colorlet{shadecolor}{qgold!10}\begin{shaded}}
     {\end{shaded}}
 % Orange
-\newenvironment{oshaded}
-    {\definecolor{shadecolor}{RGB}{245,225,214}\begin{shaded}}
+\newenvironment{gshaded}
+    {\colorlet{shadecolor}{qgreen!10}\begin{shaded}}
     {\end{shaded}}
 % Purple
 \newenvironment{pshaded}
-    {\definecolor{shadecolor}{RGB}{221,213,219}\begin{shaded}}
+    {\colorlet{shadecolor}{qpurple!10}\begin{shaded}}
     {\end{shaded}}
 
 % Define the basic page style for multipage documents
