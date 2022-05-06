@@ -16,14 +16,11 @@
 
 % Set up fonts as you like them
 \RequirePackage{cmbright}
-\usepackage[OT1]{fontenc}
+\RequirePackage[OT1]{fontenc}
 
 % Queen's official is Open Sans
-% \RequirePackage[default,scale=0.95]{opensans}
-
-% Set up some nice text spacing, for report readability
-\newcommand{\spread}{1.05}
-\linespread{\spread}
+% \RequirePackage[default,scale=0.85]{opensans}
+% \RequirePackage{newtxsf}
 
 % Some math packages that give you more symbols
 \RequirePackage{amssymb,amsfonts,amsmath,amscd,bm}
