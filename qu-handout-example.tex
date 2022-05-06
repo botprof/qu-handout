@@ -7,37 +7,7 @@
 
 % ---------------------------------------------------------------
 
-% Some math packages that give you more symbols
-\usepackage{amssymb,amsfonts,amsmath,amscd,bm}
-
-% A package that allows easy input of web URLs.
-\usepackage{url}
-
-% Use tt-style URLs
-\urlstyle{tt}
-
-% For underlining stuff in a nice way
-\usepackage[normalem]{ulem}
-
-% For code (usually Python or C/C++)
-\usepackage[]{minted}
-\setminted[python]{linenos=true}
-\setminted[c]{linenos=true}
-\renewcommand\theFancyVerbLine{\sffamily\footnotesize\arabic{FancyVerbLine}}
-\BeforeBeginEnvironment{minted}{\begin{snugshade}}
-\AfterEndEnvironment{minted}{\end{snugshade}}
-\newcommand*{\mintpy}[1]{\mintinline[bgcolor=shadecolor]{python}{#1}}
-\newcommand*{\mintc}[1]{\mintinline[bgcolor=shadecolor]{c}{#1}}
-
-% For better looking tables
-\usepackage{booktabs}
-
-% For hyperlinks
-\usepackage{hyperref}
-
-% ---------------------------------------------------------------
-
-% Some handy commands
+% Some handy commands ... add your own!
 \newcommand{\norm}[1]{\left\Vert#1\right\Vert}
 \newcommand{\abs}[1]{\left\vert#1\right\vert}
 \newcommand{\set}[1]{\left\{#1\right\}}
@@ -53,7 +23,7 @@
 
 % ---------------------------------------------------------------
 
-% Define some hyphenation (add whatever you want)
+% Define some hyphenation ... add whatever you want!
 \hyphenation{aero-space} 
 \hyphenation{auton-omous}
 

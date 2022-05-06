@@ -24,6 +24,9 @@
 \newcommand{\spread}{1.05}
 \linespread{\spread}
 
+% Some math packages that give you more symbols
+\RequirePackage{amssymb,amsfonts,amsmath,amscd,bm}
+
 % Set some course information variables
 \newcommand{\institution}[1]{}
 \newcommand{\coursetitle}[1]{}
@@ -107,11 +110,26 @@
     urlcolor=cyan
 }
 
-% Set up hyperlinks
+% For nice URL hyperlinks
 \RequirePackage{url}
-\url@rmstyle
+
+% For underlining stuff in a nice way
+\RequirePackage[normalem]{ulem}
+
+% For better looking tables
+\RequirePackage{booktabs}
 
 % Customize the abstract
 \newenvironment{qabstract}
 {\subsubsection*{Abstract}\begin{small}}
 {\end{small}}
+
+% For code (usually Python or C/C++)
+\RequirePackage[]{minted}
+\setminted[python]{linenos=true}
+\setminted[c]{linenos=true}
+\renewcommand\theFancyVerbLine{\sffamily\footnotesize\arabic{FancyVerbLine}}
+\BeforeBeginEnvironment{minted}{\begin{snugshade}}
+\AfterEndEnvironment{minted}{\end{snugshade}}
+\newcommand*{\mintpy}[1]{\mintinline[bgcolor=shadecolor]{python}{#1}}
+\newcommand*{\mintc}[1]{\mintinline[bgcolor=shadecolor]{c}{#1}}
