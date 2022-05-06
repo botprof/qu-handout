@@ -16,6 +16,7 @@
 
 % Set up fonts as you like them
 \RequirePackage{cmbright}
+\usepackage[OT1]{fontenc}
 
 % Queen's official is Open Sans
 % \RequirePackage[default,scale=0.95]{opensans}
