@@ -20,7 +20,8 @@
 
 % Queen's official is Open Sans
 % \RequirePackage[default,scale=0.85]{opensans}
-% \RequirePackage{newtxsf}
+% \RequirePackage[cmintegrals]{newtxsf}
+% \RequirePackage[varqu,varl]{zi4}
 
 % Some math packages that give you more symbols
 \RequirePackage{amssymb,amsfonts,amsmath,amscd,bm}
