@@ -19,7 +19,7 @@
 \RequirePackage[OT1]{fontenc}
 
 % Queen's official is Open Sans
-% \RequirePackage[default,scale=0.85]{opensans}
+% \RequirePackage[default,scale=0.9]{opensans}
 % \RequirePackage[cmintegrals]{newtxsf}
 % \RequirePackage[varqu,varl]{zi4}
 
