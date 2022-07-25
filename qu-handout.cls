@@ -15,13 +15,13 @@
 \setlength{\headheight}{24.75447pt}
 
 % Set up fonts as you like them
-\RequirePackage{cmbright}
-\RequirePackage[OT1]{fontenc}
+% \RequirePackage{cmbright}
+% \RequirePackage[OT1]{fontenc}
 
 % Queen's official is Open Sans
-% \RequirePackage[default,scale=0.9]{opensans}
-% \RequirePackage[cmintegrals]{newtxsf}
-% \RequirePackage[varqu,varl]{zi4}
+\RequirePackage[default,scale=0.87]{opensans}
+\RequirePackage[varqu,varl]{zi4}
+\RequirePackage[cmintegrals]{newtxsf}
 
 % Some math packages that give you more symbols
 \RequirePackage{amssymb,amsfonts,amsmath,amscd,bm}
