@@ -19,9 +19,10 @@
 % \RequirePackage[OT1]{fontenc}
 
 % Queen's official is Open Sans
+\RequirePackage[T1]{fontenc}
 \RequirePackage[default,scale=0.87]{opensans}
+\RequirePackage[italic]{mathastext}
 \RequirePackage[varqu,varl]{zi4}
-\RequirePackage[cmintegrals]{newtxsf}
 
 % Some math packages that give you more symbols
 \RequirePackage{amssymb,amsfonts,amsmath,amscd,bm}
