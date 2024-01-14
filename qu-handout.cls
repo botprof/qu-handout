@@ -2,7 +2,7 @@
 % Copyright (c) 2013-2022 Joshua A. Marshall
 % Originally created by Joshua A. Marshall on 11 July 2013
 
-\LoadClass[12pt,letterpaper,fleqn,oneside]{article}
+\LoadClass[11pt,letterpaper,fleqn,oneside]{article}
 
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{qu-handout}[2021/10/02 QU-HANDOUT class by Joshua A. Marshall]
@@ -18,14 +18,16 @@
 % \RequirePackage{cmbright}
 % \RequirePackage[OT1]{fontenc}
 
-% Queen's official is Open Sans
+% For Queen's standard font use this one
+\RequirePackage{arev}
 \RequirePackage[T1]{fontenc}
-\RequirePackage[default,scale=0.87]{opensans}
-\RequirePackage[italic]{mathastext}
-\RequirePackage[varqu,varl]{zi4}
+\RequirePackage[default,scale=1.05]{opensans} 
+% \RequirePackage[italic]{mathastext}
+\RequirePackage[varqu,varl,scale=1.18]{zi4}
+\linespread{1.1}
 
 % Some math packages that give you more symbols
-\RequirePackage{amssymb,amsfonts,amsmath,amscd,bm}
+\RequirePackage{amssymb,amsfonts,amsmath,amscd}
 
 % Set some course information variables
 \newcommand{\institution}[1]{}
